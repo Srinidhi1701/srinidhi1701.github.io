@@ -1,0 +1,88 @@
+.text-contact{
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+    
+    h1{
+        font-size: 53px;
+        font-family: 'coolvetica';
+        color: yellow;
+        margin-top: 0%;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+
+        &:before{
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            font-size: 18px;
+            position:absolute;
+            margin-top: -10px;
+            left: -10px;
+            opacity: 0.6;
+            line-height: 18px;  
+        }
+        &:after{
+            content: '<h1 />';
+            font-family: 'La Belle Aurore';
+            font-size: 18px;
+            position:absolute;
+            left: -30px;
+            bottom: -20px;
+            opacity: 0.6;
+            line-height: 18px;  
+            margin-left: 20px;
+
+
+        }
+    }
+}
+.cinfo-tab
+    {
+        float: right;
+        margin-right: 200px;
+        padding: 10px;
+        margin-top: 10%;
+    
+        ul{
+            list-style: none;
+            padding: auto;     
+        }
+    
+        
+        li{
+            
+            margin-bottom: 10px;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+        li:hover{
+            transform:scale(1.1) ;
+        }
+        strong{
+            font-weight: bold;
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+    
+        }
+        span{
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+        a {
+            text-decoration: none;
+            color: yellow;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+}

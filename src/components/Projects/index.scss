@@ -1,0 +1,70 @@
+.projects-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 710px; /* Set the maximum height for the entire card container */
+  overflow-y: auto;
+}
+.card {
+    overflow-y: auto;
+    max-height: 710px;
+    width: 300px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px 10px; /* Added margin */
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 100px;
+    transition: transform 0.3s ease;
+    
+  }
+  .card-row {
+    
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+  }
+
+  .card-row:first-child {
+    margin-bottom: 20px; /* Add space between the two rows */
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card-content {
+    text-align: left;
+  }
+  
+  .card-title{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 0;
+    color: black;  
+    text-decoration: underline;
+  }
+  .card-date{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 0;
+    color: rgb(39, 29, 29); 
+  }
+  .card-tools{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 0;
+    color: rgb(11, 11, 11); 
+  }
+
+  
+  
+  .card p {
+    font-size: 14px;
+    font-family: 'coolvetica';
+    margin: 8px 0;
+    color: rgb(73, 58, 58); 
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }

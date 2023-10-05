@@ -1,0 +1,57 @@
+.main-log img{
+    position:absolute;
+    z-index:0;
+    width: 110%; // make the img fluid
+    height: 750px;;
+    margin:-10px;
+    object-fit: cover;
+  }
+  .main-log{
+    .text-design{
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        opacity: 1;
+        position: absolute;
+        top: 28%;
+        left: 40%;
+        
+    }
+    .para-design{
+        color: white;
+        font-size: 15px;
+        font-weight: 50;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-align: center;
+        opacity: 1;
+        position: absolute;
+        top: 41%;
+        left: 40%;
+    }
+    ul {
+        list-style: none; 
+        padding: 0;
+        display: flex; 
+        justify-content: center; 
+        gap: 10px; 
+        position: absolute;
+        bottom: 339px; 
+        left: 42%;
+        transform: translateX(-50%);
+      }
+      li {
+        display: inline-block; 
+      }
+    
+      a {
+        text-decoration: none;
+      }
+    
+      svg {
+        font-size: 24px;
+      }
+  }
